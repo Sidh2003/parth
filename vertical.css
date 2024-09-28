@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/2068799.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: rgba(128, 128, 128, 0.714);
+    width: 10%;
+    height: 100vh;
+}
+#cont{
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    border-bottom: 2px solid white;
+}
+a:hover{
+    background-color: red;
+}
+/* #menu{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgb(20, 18, 155);
+    position: relative;
+    display: none;
+} */
+#drop{
+    position: relative;
+}
+
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(20, 18, 155, 0.752);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    
+    display: none;
+}
+
+#drop:hover #menu{
+    display: block;
+}
+#ipmenu{
+    padding: 0;
+    list-style-type: none;
+    background-color: gray;
+    position: absolute;
+    top:0%;
+    left: 100%;
+    width: 170%;
+    display: none;
+}
+#ip:hover #ipmenu{
+    display: block;
+}
+#onemenu{
+    padding: 0;
+    list-style-type: none;
+    background-color: grey;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 170%;
+    display: none;
+}
+#one:hover #onemenu{
+    display: block;
+}
+
+#sgmenu{
+    padding: 0;
+    list-style-type: none;
+    background-color: grey;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 170%;
+    display: none;
+
+}
+#sg:hover #sgmenu{
+    display: block;
+}
+
+#remenu{
+    padding: 0;
+    list-style-type: none;
+    background-color: grey;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 170%;
+    display: none;
+
+}
+#re:hover #remenu{
+    display: block;
+}
+
+#rdmenu{
+    padding: 0;
+    list-style-type: none;
+    background-color: grey;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 170%;
+    display: none;
+}
+#rd:hover #rdmenu{
+    display: block;
+}

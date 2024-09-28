@@ -1,0 +1,24 @@
+a{
+    display:block
+    
+}
+a{
+    text-decoration: none;
+}
+#a1{
+    text-align: left;
+    font-size: 130px;
+    font-weight: bold;
+}
+
+#a2{
+    text-align: center;
+    font-size: 130px;
+    font-weight: bold;
+}
+
+#a3{
+    text-align: right;
+    font-size: 130px;
+    font-weight: bold;
+}

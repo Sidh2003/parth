@@ -1,0 +1,12 @@
+ul{
+    list-style-type: square;
+}
+body{
+background-image: linear-gradient(rgb(0, 255, 213),rgb(255, 255, 255),rgb(192, 235, 255));
+}   
+#cup{
+    color: red;
+}
+.sid{
+    color: red;
+}

@@ -1,0 +1,183 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/wine-glass-71380_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgba(46, 36, 36, 0.477);
+    width: 10%;
+    height: 100vh;
+}
+
+#cont{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+  
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    border-bottom: 2px solid white;
+}
+a:hover{
+    background-color: rgba(249, 0, 12, 0.834);
+}
+#green{
+    position: relative;
+}
+
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(46, 36, 36, 0.477);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    
+    display: none;
+}
+
+#green:hover #menu{
+    display: block;
+}
+
+#vp{
+    position: relative;
+}
+#drop{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(46, 36, 36, 0.477);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    
+    display: none; 
+}
+#vp:hover #drop{
+    display: block;
+}
+
+#ds{
+    position: relative;
+}
+#down{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(46, 36, 36, 0.477);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    
+    display: none; 
+}
+#ds:hover #down{
+    display: block;
+}
+#pz{
+    position: relative;
+}
+#sid{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(46, 36, 36, 0.477);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    
+    display: none; 
+}
+
+#pz:hover #sid{
+    display: block;
+}
+#red{
+    position: relative;
+}
+
+#menu1{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(46, 36, 36, 0.477);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    
+    display: none;
+}
+
+#red:hover #menu1{
+    display: block;
+}
+#bi{
+    position: relative;
+}
+#durv{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(46, 36, 36, 0.477);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    
+    display: none;
+}
+#bi:hover #durv{
+    display: block;
+}
+#fr{
+    position: relative;
+}
+#rice{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(46, 36, 36, 0.477);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    
+    display: none;
+}
+#fr:hover #rice{
+    display: block;
+}
+
+#fh{
+    position: relative;
+}
+#fish{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(46, 36, 36, 0.477);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    
+    display: none;
+}
+#fh:hover #fish{
+    display: block;
+}
+#pi{
+    position: relative;
+}
+#np{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(46, 36, 36, 0.477);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    
+    display: none;
+}
+#pi:hover #np{
+    display: block;
+}

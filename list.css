@@ -1,0 +1,38 @@
+  ul{
+    list-style-type: square;
+}
+#vd{
+    color: aqua;
+}  
+ /* body{
+    background-color: cornflowerblue;
+}
+ol{
+    background-color: blue;
+}
+ul{
+    background-color: palevioletred;
+} */
+body{
+    /* background-image: linear-gradient(orange,red);
+    height: 100vh; */
+    background-image: url(./images/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+#sid{
+    color: aqua;
+}
+#q{
+    color: blue;
+}
+#js{
+    color: black;
+}
+#ja{
+    color: blueviolet;
+}
+#d1{
+    color: chartreuse;
+}

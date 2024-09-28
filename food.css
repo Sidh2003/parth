@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/pexels-pixabay-301692.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: black;
+}
+#count{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: rgb(27, 194, 186);
+}  
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    background-color: grey;
+    display: none;
+  
+}
+#drop{
+    position: relative;
+
+}
+#drop:hover #menu{
+    display: block;
+}
+
+#down{
+  position: relative;
+}
+
+#menu1{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    background-color: grey;
+    display: none;
+}
+#down{
+    position: relative;
+}
+#down:hover #menu1{
+    display: block;
+}
+

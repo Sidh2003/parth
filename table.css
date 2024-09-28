@@ -1,0 +1,43 @@
+ table{
+    border: 2px dotted black;
+    border-collapse: collapse;
+} 
+th{
+    border: 2px solid green;
+    color: red;
+} 
+  td{
+    border: 2px solid black;
+ }  
+
+   table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+ } 
+ 
+ h1{
+    color: yellow;
+ }
+ h2,h3{
+    color: red;
+ }
+ h4{
+   color: aqua;
+ }
+ #msd{
+   color: yellow;
+ }
+#vir{
+   color: blueviolet;
+}
+#anu{
+   color: brown;
+} */
+
+  #mumbai{
+   color: aqua;
+  }
+  /* *{
+   color: red;
+  }
+  */

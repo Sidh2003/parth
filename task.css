@@ -1,0 +1,50 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    border: 2px solid chocolate;
+    color: chocolate;
+}
+
+td{
+    border: 2px solid black;
+ } 
+
+ #GUJARAT{
+    color: darkblue;
+ }
+ #chennai{
+    color: yellow;
+ }
+ #Lucknow{
+    color: aqua;
+ }
+ #Mumbai{
+    color: blue;
+ }
+ #Rajasthan{
+    color: palevioletred;
+ }
+ #Bangalore{
+    color:red;
+ }
+ #Kolkata{
+    color: purple;
+ }
+ #Punjab{
+    color: red;
+ }
+ #Delhi {
+    color: darkblue;
+ }
+ #Hyderabad{
+    color: orange;
+ }
+ #green{
+    color: green;
+ }
+ #red{
+    color: red;
+ }

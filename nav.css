@@ -1,0 +1,60 @@
+/* h1{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+a{
+    display: block;
+} */
+/* body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: whitesmoke;
+   padding: 0px 20px;
+}
+    
+   
+#left{
+    display: flex;
+    gap: 20px;
+}
+#right{
+    display: flex;
+    gap: 20px;
+}
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    margin-top: 20px;
+  
+}
+#left1{
+    display: flex;
+}
+#cent{
+    display: flex;
+}
+#right1{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: beige;
+    padding: 20px;
+}
+a:hover{
+    color: crimson;
+    background-color: whitesmoke;
+}

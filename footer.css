@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: cyan;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+}
+footer section{
+    width: 80%;
+    background-color: rgb(236, 192, 192);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 40px 40px;
+}
+
+footer section ul{
+    list-style-type: none;
+  padding: 0; 
+  margin: 0; 
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 100;
+}
