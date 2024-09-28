@@ -1,0 +1,58 @@
+body{
+    background-color: hotpink;
+
+}
+#lap{
+    color: white;
+}
+#mob{
+    color: cadetblue;
+    display: none;
+}
+
+#tab{
+    color: gold;
+    display: none;
+}
+
+
+@media(max-width:600px){
+    body{
+        background-color: rgb(204, 255, 0);
+    }
+  #lap{
+
+    color: red;
+    display: none;
+ 
+  }
+  #tab{
+    color: black;
+}
+
+#mob{
+display: block;
+    
+}
+    
+}
+
+
+
+@media(min-width:601px) and (max-width:1000px){
+    body{
+        background-color: black;
+    }
+    #lap{
+        color: aqua;
+        display: none;
+    }
+
+    #mob{
+        color: brown;
+    }
+
+    #tab{
+       display: block;
+    }
+}

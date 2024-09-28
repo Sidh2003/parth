@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* #b-one{
+    width: 100rem;
+} */
+
+header > #logo{
+    width: 18%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+#left-cont{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:red ;
+}
+
+#left-cont > li > a{
+    text-decoration: none;
+    padding: 0.8rem;
+    display: block;
+    color: black;
+    font-size: 1.2rem;
+}
+
+#right{
+    text-align: center;
+    gap: 1.2rem;
+    font-size: 2rem;
+    color: #c6c6c6;
+}
+
+#One{
+   display: block;
+   top: 80px;
+}

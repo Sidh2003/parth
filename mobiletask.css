@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(244, 225, 120);
+}
+#mi{
+    color: darkblue;
+}
+#csk{
+    color: yellow;
+}
+
+#srh{
+    color: red;
+}
+
+#rr{
+    color: pink;
+}
+
+#rcb{
+    color: hotpink;
+}
+
+#pj{
+    color: orangered;
+}
+
+@media(max-widht:600px){
+body{
+    background-color: aqua;
+}
+
+
+}
+
+@media(min-width:601px) and (max-width:1000px){
+    body{
+        background-color: gray;
+    }
+
+}

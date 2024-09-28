@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+#apple{
+   
+    margin-top: -16rem;
+    margin-left: 43rem;
+}
+
+
+
+#apple h1{
+    margin-left: 4rem;
+    color: white;
+
+}
+
+
+#apple h4{
+    margin-left: 4rem;
+    color: white;
+}
+
+p{
+   
+   
+    color: white;
+}
+
+ #but1{
+    height: 50px;
+    border-radius: 20px;
+    width: 100px;
+ }
+
+ #but2{
+    height: 50px;
+    border-radius: 20px;
+    width: 80px;
+ }
+

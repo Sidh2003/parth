@@ -1,0 +1,511 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f5f5f5;
+}
+#mob-btn{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+nav > #left >h1{
+    color: white;
+    font-size: 1rem;
+}
+nav> #left> h1> span{
+    font-weight: 100;
+}
+
+#right-cont{
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+#right-cont> li> a{
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    color: white;
+    font-size: 1.1rem;
+}
+
+#right-cont a button{
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(233, 211, 211);
+    padding: 5px 15px;
+}
+
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 200%;
+    display: none;
+    border-radius: 5px;
+}
+#drop{
+    position: relative;
+}
+#menu >li >a{
+    text-decoration: none;
+    color: gray;
+    padding: 1rem;
+    display: block;
+    border-bottom: 2px solid rgb(222, 220, 220);
+}
+
+#drop:hover #menu{
+   display: block;
+}
+
+#menu >li >a:hover{
+    background-color: rgb(247, 125, 81);
+    color: white;
+}
+
+#smenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    top: 74%;
+    right: 100%;
+    width: 100%;
+    display: none;
+    border-radius: 5px;
+}
+
+#smenu >li >a{
+    text-decoration: none;
+    color: gray;
+    padding: 1rem;
+    display: block;
+    border-bottom: 2px solid rgb(222, 220, 220);
+}
+
+#leftdrop:hover #smenu{
+    display: block;
+}
+
+#smenu >li >a:hover{
+    background-color: rgb(247, 125, 81);
+    color: white;   
+   
+}
+
+#alpha{
+   text-align: center;
+   color: white;
+   margin-top: 7rem;
+
+}
+
+#alpha >h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+
+}
+
+#alpha >p{
+font-size: 1.3rem;
+margin-bottom: 2rem;
+}
+
+#alpha > button{
+    width: 11%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    color: gray;
+    margin-right: 1rem;
+}
+
+#alpha > #learn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+#intro{
+  background-color: white;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 2rem;
+  margin-top: 14rem ;
+}
+
+#intro >h2{
+    font-size: 2rem;
+    color: gray;
+
+}
+
+#intro > p{
+    border-top: 2px solid  rgb(220, 216, 216);
+    width: 60%;
+    margin: auto;
+    width: 60%;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+   
+
+}
+
+#intro img{
+    width: 100%;
+    margin-top: 2rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#signup{
+    text-align: center;
+    color: white;
+    background-color: #e89980;
+    display: block;
+    padding: 3.5rem 4rem;
+}
+
+#signup > h1{
+
+    font-size: 2.25rem;
+    margin-top: 2rem;
+}
+
+#signup > p{
+    margin-top: 2rem;
+}
+
+#mail{
+    margin-top: 1rem;
+    width: 20%;
+    height: 3rem;
+    background-color:  #eba893;
+    border: none;
+    border-radius: 5px;
+    padding-left: 1rem;
+    
+}
+
+#up{
+
+    background-color: white;
+    color: #e89980;
+    width: 10%;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 0.8rem;
+}
+#mail::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+
+#logo{
+    text-align: center;
+    gap: 1.2rem;
+    font-size: 2rem;
+    color: #c6c6c6;
+   
+    
+
+}
+
+#logo >i{
+    margin-top: 4rem;
+    padding-left: 1rem;
+}
+
+#last {
+    margin-top: 1rem;
+    display: flex;
+   justify-content: center;
+   gap: 1.2rem;
+   border-right: 1px solid gray;
+ 
+    
+}
+
+#last > p{
+    border-right: 1px solid gray;
+    padding-right: 1rem;
+}
+#last > p > span{
+
+border-bottom: dotted;
+color: rgba(128, 128, 128, 0.707);
+
+}
+
+#last > p > span:hover{
+border: none;
+}
+
+#icon{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+#icon>div{
+   
+    width: 45%;
+    display:inline-block;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.fa-bolt-lightning{
+    background-color: #e89980;
+    color: white;
+    border-radius: 100%;
+    padding: 2rem;
+    font-size: 2rem;
+}
+.fa-chart-area{
+    background-color: #7fcdb8;
+    color: white;
+   border-radius: 100%;
+   padding: 2rem;
+   font-size: 2rem;
+}
+.fa-cloud{
+    background-color:#90b0ba ;
+    color: white;
+    border-radius: 100%;
+    padding: 2rem;
+    font-size: 2rem;
+
+}
+
+.fa-lock{
+    background-color: #e5cb95;
+    color: white;
+    border-radius: 100%;
+    padding: 2rem;
+    font-size: 2rem;
+
+}
+
+#div1{
+    border-right:2px solid #c6c6c6 ;
+    border-bottom:2px solid #c6c6c6 ;
+    position: relative;
+    top: 1.5px;
+    left: 3px;
+     
+}
+
+#div4{
+    border-top:2px solid #c6c6c6 ;
+    border-left:2px solid #c6c6c6 ;
+   
+
+
+}
+#card{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+   
+    
+}
+
+#card >div{
+width: 48%;
+background-color: white;
+text-align: center;
+padding-bottom:  2rem;
+border-radius: 5px;
+
+
+}
+
+#card >div>img{
+    width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------mobile version--------------------------------------- */
+@media(max-width:600px){
+
+
+
+body{
+   
+    background-size: 160%;
+    background-position-x: center;
+   
+}
+
+nav{
+    display: none;
+}
+
+#mob-btn{
+    display: inline-block;
+    background-color: rgb(218, 215, 215);
+    color: white;
+    padding: 0.5rem 1rem ;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+#alpha{
+   
+    width: 80%;
+    margin: auto;
+    margin-top: 0rem;
+ 
+ }
+ #alpha >h1{
+   font-size: 2rem;
+}
+
+#alpha >p{
+font-size: 1.1rem;
+
+}
+#alpha > button{
+    width: 100%;
+   margin-bottom: 1rem;
+}
+
+#intro{
+   
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 0rem ;
+
+  }
+
+  #intro >h2{
+    font-size: 1.5rem;
+   
+
+}
+
+#intro > p{
+  
+    width: 90%;
+   
+   
+
+}
+br{
+    display: none;
+}
+
+#signup{
+   
+    color: white;
+    background-color: #e89980;
+    display: block;
+    padding: 3.5rem 4rem;
+}
+
+#signup > h1{
+
+    font-size: 1.25rem;
+    
+}
+
+#signup > p{
+    margin-top: 1rem;
+   
+}
+
+#mail{
+    margin-top: 1rem;
+    width: 95%;
+    height: 3rem;
+   
+  
+margin-bottom: 1rem;
+   
+   
+    
+}
+
+
+#up{
+
+    margin-bottom: 1rem;
+    width: 108%;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: -0.5rem 
+}
+
+#div1>h2{
+    font-size: 1rem;
+}
+#div2>h2{
+    font-size: 1rem;
+}
+
+#div3>h2{
+    font-size: 1rem;
+}
+
+
+#div4>h2{
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,33 @@
+#mi{
+    background-color: blue;
+    /* position: absolute; */
+    z-index: 1000;
+}
+
+#csk{
+    background-color: yellow;
+    position: absolute;
+    z-index: 500;
+    top: 0;
+}
+
+#rcb{
+    background-color: red;
+    /* position: absolute; */
+    z-index: 3;
+}
+
+#mum{
+    background-color: darkblue;
+    position: absolute;
+}
+#th{
+    background-color: aqua;
+}
+#bm{
+    background-color: skyblue;
+}
+
+#vigh{
+    background-color: red;
+}
